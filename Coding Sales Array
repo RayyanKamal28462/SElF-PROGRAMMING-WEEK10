@@ -1,0 +1,21 @@
+package myARRAY;
+
+import java.util.Scanner;
+
+public class salesArray {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	    Scanner sc = new Scanner(System.in);
+
+		
+		double[] sales = new double[10];
+		int index;
+
+		for (index = 0; index < sales.length;index++)
+		    sales[index] = 10.00;
+
+	}
+
+}
